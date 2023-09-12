@@ -6,9 +6,6 @@ public class GarageDoorDriver {
     private Logger log = Logger.getLogger(
     		GarageDoorDriver.class.getSimpleName());
 
-    public GarageDoorDriver(){
-		// Nothing to initialize
-	}
 	public void openDoor(int speedLevel){
 		log.info("Garage Door Opening at " + speedLevel + " speed");
 	}
