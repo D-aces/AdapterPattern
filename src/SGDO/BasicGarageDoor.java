@@ -7,6 +7,7 @@ public class BasicGarageDoor implements StdGarageDoorOpener {
     		BasicGarageDoor.class.getSimpleName());
     
     GarageDoorAdapter adapter;
+   
     
 	@Override
 	public void openDoor() {
@@ -21,10 +22,12 @@ public class BasicGarageDoor implements StdGarageDoorOpener {
 	}
 	
 	public void openDoor(int speed) {
+		adapter = new GarageDoorAdapter(speed);
 		adapter.openDoor();
 	}
 	
 	public void closeDoor(int speed) {
+		adapter = new GarageDoorAdapter(speed);
 		adapter.closeDoor();
 	}
 
