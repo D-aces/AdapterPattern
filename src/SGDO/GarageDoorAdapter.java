@@ -4,8 +4,8 @@ public class GarageDoorAdapter implements StdGarageDoorOpener{
 	private PremiumGarageDoorOpener premiumGarageDoorOpener;
 	private int speed;
 	
-	public GarageDoorAdapter(PremiumGarageDoorOpener premiumGarageDoorOpener, int speed) {
-		this.premiumGarageDoorOpener = premiumGarageDoorOpener;
+	public GarageDoorAdapter(int speed) {
+		premiumGarageDoorOpener = new PremiumGarageDoorOpener();
 		this.speed = speed;
 	}
 	
