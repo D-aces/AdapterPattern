@@ -1,5 +1,6 @@
 package SGDO;
 
+//Testing the classes
 public class TestGarageDoors {
 	public static void main (String [] args) 
 	{
