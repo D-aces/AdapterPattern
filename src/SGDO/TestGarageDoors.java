@@ -1,7 +1,7 @@
 package SGDO;
 
-//Testing the classes
-public class TestGarageDoors {
+public class TestGarageDoors 
+{
 	public static void main (String [] args) 
 	{
 		BasicGarageDoor doorBasic = new BasicGarageDoor();

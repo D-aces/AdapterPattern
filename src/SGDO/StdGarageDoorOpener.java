@@ -1,9 +1,7 @@
 package SGDO;
 
-public interface StdGarageDoorOpener {
-
+public interface StdGarageDoorOpener 
+{
 	void openDoor();
-
 	void closeDoor();
-
 }
