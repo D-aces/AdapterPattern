@@ -6,7 +6,7 @@ public class BasicGarageDoor implements StdGarageDoorOpener {
     private Logger log = Logger.getLogger(
     		BasicGarageDoor.class.getSimpleName());
     
-    GarageDoorAdapter adapter;
+    GarageDoorAdapter adapter = new GarageDoorAdapter(45);
     
 	@Override
 	public void openDoor() {
