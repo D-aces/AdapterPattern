@@ -6,16 +6,12 @@ public class GarageDoorDriver
 {
     private Logger log = Logger.getLogger(GarageDoorDriver.class.getSimpleName());
 
-<<<<<<< HEAD
-	public void openDoor(int speedLevel){
-=======
 	public void openDoor(int speedLevel)
 	{
->>>>>>> refs/remotes/origin/main
-		log.info("Garage Door Opening at " + speedLevel + " speed");
+		log.info("Garage Door Opening at a speed-level of: " + speedLevel + "\n");
 	}
 	public void closeDoor(int speedLevel)
 	{
-		log.info("Garage Door Closing " + speedLevel + " speed");
+		log.info("Garage Door Closing at a speed-level of: " + speedLevel + "\n");
 	}
 }
