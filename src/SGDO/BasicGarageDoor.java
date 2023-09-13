@@ -28,5 +28,4 @@ public class BasicGarageDoor implements StdGarageDoorOpener
 		adapter = new GarageDoorAdapter(speed);
 		adapter.closeDoor();
 	}
-
 }
